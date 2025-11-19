@@ -13,6 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: #000000;
+  overscroll-behavior: none;
+}
+
+html {
+  background-color: #000000;
+  overscroll-behavior: none;
+}
+
 @layer utilities {
   .animate-in {
     animation: fadeInUp 0.5s ease-out;

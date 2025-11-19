@@ -208,7 +208,7 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black/90 backdrop-blur-md border-b border-gray-900 shadow-lg shadow-black/50' : 'bg-transparent'
+        isScrolled ? 'bg-black/90 backdrop-blur-md border-b border-gray-900 shadow-lg shadow-black/50' : 'bg-transparent shadow-sm shadow-white/5'
       }`}>
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-between items-center h-16">
