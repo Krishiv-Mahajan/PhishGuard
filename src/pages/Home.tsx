@@ -266,7 +266,7 @@ export default function Home() {
           
           <h1 className="text-4xl md:text-6xl font-light mb-6 leading-tight">
             Stay Safe from
-            <span className="block bg-gradient-to-r from-gray-400 via-gray-300 to-gray-400 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-gray-400 via-gray-300 to-gray-400 bg-clip-text text-transparent pb-1">
               Phishing. Automatically.
             </span>
           </h1>
